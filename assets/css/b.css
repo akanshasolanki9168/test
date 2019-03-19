@@ -1,0 +1,113 @@
+.modal-body 
+{
+  width: 756px;
+  padding-top:35px;
+  margin-bottom: 35px;
+  background-color: #D3D3D3 ;
+}
+.modal-header 
+{
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+.modal 
+{
+  display: none; 
+  position: fixed; 
+  z-index:1;
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4);
+}
+
+input[type=text] 
+{
+
+/*padding:  6px;*/
+  margin: 8px 0;
+  box-sizing: border-box;
+  color:black;
+  height: 28px;
+  border-radius: 5px;
+}
+#usertable td
+{
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-size: 13px;
+  color: black;
+  text-align: center;
+}
+button
+{
+  font-size: 17px ;
+  box-sizing: border-box; 
+  border: none;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer; 
+  background:round;
+}
+select 
+{
+  width: 60px;
+  padding: 5px;
+  font-size: 16px;
+  line-height: 1;
+  border: 0;
+  border-radius: 5px;
+  height: 30px;
+  background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #ddd;
+  -webkit-appearance: none;
+  background-position-x: 40px;
+}
+/*.header1
+{
+color: black;
+font-size:15px;
+height: 15px;  
+padding-bottom: 150px;
+}*/
+::-webkit-input-placeholder { 
+font-size: 12px;
+}
+.header1
+{
+  color: black;
+  padding-bottom: 75px !important;
+  font-weight: unset;
+}
+td
+{
+  color: black;
+  font-size: 25px;
+}
+img
+{
+  border:  #ddd;
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+}
+/*th
+{
+width:40px;
+height: 40px;
+}*/
+#session
+{
+  padding-top: 15px;
+}
+#showimage
+{
+  display: inline;
+  height: 28px;
+  width: 28px;
+}

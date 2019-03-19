@@ -1,0 +1,98 @@
+
+    #tbl 
+    {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    #tbl td, #tbl th 
+    {
+        border: 5px black;
+        padding: 8px;
+        text-align: center;
+    }
+    #tbl th 
+    {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color:#af4c76;
+        color: white;
+        text-align: center;
+    }
+    .input-search
+    {
+        box-sizing: border-box;
+        
+    }
+    /*input[type=text] 
+    {
+        padding: 6px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }*/
+    img
+    {
+        border:  #ddd;
+        padding: 5px;
+        width: 27px;
+    }
+
+   .ascending,.descending
+    { 
+        display: none;
+    }
+    .pagination
+    {
+        font-size:30px;    
+     /*   text-align:center;*/
+
+       
+    }
+  /*  .logoutbutton
+    {
+        height:50px;
+        width:50px;
+    }*/
+
+    select
+    {
+        cursor: pointer;
+        font-size: 20px;
+
+
+    }
+    .default_image
+    {
+        height:25px;
+        width:25px;
+    }
+    #showimage
+    {
+        display: inline;
+    }
+    /*ul 
+    {
+        list-style-type: none;
+        margin: 0;
+        padding: 10px;
+        overflow: hidden;
+        background-color: white;
+    }
+    li 
+    {
+        float: left;
+    }
+    li a 
+    {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 22px;
+    }
+    li a:hover 
+    {
+        background-color: #A9A9A9;
+    }*/
